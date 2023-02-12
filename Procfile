@@ -1,1 +1,1 @@
-web: python -u "c:\Users\matej\OneDrive\Počítač\QueueVersion4\main_app.py" --host=0.0.0.0 --port=$PORT
+web: python3 -m flask run --host=0.0.0.0 --port=$PORT
